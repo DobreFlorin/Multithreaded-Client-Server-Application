@@ -1,0 +1,14 @@
+python checker/checker.py
+.The config file pylintrc doesn't exist!
+E........
+======================================================================
+ERROR: test_coding_style (__main__.TestAPI)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/dobreflorin/AnulIV/ASC/Teme/Tema1/asc-public-master/assignments/1-le-stats-sportif/venv/lib/python3.10/site-packages/pylint/config/config_initialization.py", line 45, in _config_initialization
+    config_data, config_args = config_file_parser.parse_config_file(
+  File "/home/dobreflorin/AnulIV/ASC/Teme/Tema1/asc-public-master/assignments/1-le-stats-sportif/venv/lib/python3.10/site-packages/pylint/config/config_file_parser.py", line 126, in parse_config_file
+    return _RawConfParser.parse_config_file(file_path, self.verbose_mode)
+  File "/home/dobreflorin/AnulIV/ASC/Teme/Tema1/asc-public-master/assignments/1-le-stats-sportif/venv/lib/python3.10/site-packages/pylint/config/config_file_parser.py", line 106, in parse_config_file
+    raise OSError(f"The config file {file_path} doesn't exist!")
+OSError: The config file pylintrc doesn't exist!
